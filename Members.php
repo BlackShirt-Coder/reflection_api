@@ -13,7 +13,8 @@ class Members
         echo "constructor";
     }
 
-    public  function getDetailInfo(){
+    public  function getDetailInfo(string &$data,$idx){
+
         echo "I'm beging invoked";
 //        return $this->detailInfo;
     }
